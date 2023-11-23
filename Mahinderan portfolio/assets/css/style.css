@@ -565,6 +565,14 @@ section {
   margin: 0;
   font-size: 14px;
 }
+.profile-pic {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fills the circular frame */
+  border: 2px solid aqua; /* Optional border for the circular image */
+  margin-bottom: 20px; /* Add margin as needed to separate the image from text */
+}
 
 .breadcrumbs ol li+li {
   padding-left: 10px;
